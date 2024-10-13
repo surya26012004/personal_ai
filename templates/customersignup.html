@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Sign Up</title>
+    <style>
+        body {
+            background: linear-gradient(rgba(24, 128, 213, 0.9), rgba(220, 216, 216, 0.9));
+            background-size: cover;
+            margin: 0;
+        }
+
+        #header {
+            height: 175px;
+            width: 100%;
+            background:black;
+            display: flex;
+            justify-content: space-between;
+        }
+        ul {
+            height: 50px;
+            width: 100%;
+            padding-top: 15px;
+            margin: 0;
+            list-style: none;
+        }
+
+        ul li {
+            display: inline-block;
+            margin: 0 50px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        #header ul{
+                height:50px;
+                width:50;              
+                padding-top:70px;
+
+             
+             }
+
+        #body {
+            height: 500px;
+            width: 100%;
+            padding-top:50px;
+        }
+        #footer{
+                height: 200px;
+                width: 100%;
+                background: rgba(204, 197, 197, 0.9);
+                display : flex;
+            }
+             #social{
+                height: 200px;
+                width: 25%;
+                color: whitesmoke;
+
+             }
+             #customerservice{
+                height: 200px;
+                width: 25%;
+                color:white;
+                padding-left: 50px;
+                color: whitesmokes
+                
+             }
+             #copy{
+                height:200px;
+                width: 25%;
+                color: white;
+                padding-left: 50px;
+               
+             }
+             #branches{
+                height: 200px;
+                width: 25%;
+                color: whitesmoke; 
+             }
+             
+             ul li{
+                list-style: none;
+             }
+
+             #box {
+            height: 400px;
+            width: 350px;
+            border: 3px solid white;
+            margin-bottom: 50px;
+            padding-top: 20px;
+            box-sizing: border-box;
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        th {
+            color: white;
+        }
+
+        input[type="text"], input[type="password"], input[type="email"] {
+            width: 100%;
+            padding: 5px;
+            margin: 10px 0;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            padding: 5px 15px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <img src="static/state-bank-of-india logo 10.png" alt="Logo" height="175" width="1570px">
+        <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="login">Customer</a></li>
+            <li><a href="employee.html">Employee</a></li>
+            <li><a href="admin.html">Admin</a></li>
+        </ul>
+    </div>
+
+    <div id="body">
+        <center>
+            <div id="box">
+                <h2 style="color: white;">Customer Sign Up</h2>
+                <form action="#" method="post">
+                    <table>
+                        <tr>
+                            <th>Full Name:</th>
+                            <td><input type="text" name="fullname" required></td>
+                        </tr>
+                        <tr>
+                            <th>Email:</th>
+                            <td><input type="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <th>Username:</th>
+                            <td><input type="text" name="username" required></td>
+                        </tr>
+                        <tr>
+                            <th>Password:</th>
+                            <td><input type="password" name="password" required></td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td>
+                                <input type="submit" value="Sign Up">
+                                <input type="reset" value="Reset">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <td style="color: white;">Already have an account? <a href="login">Login</a></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </center>
+    </div>
+    
+    <div id="footer">
+        <div id="social">
+            <center>
+                <h2>SOCIAL MEDIA</h2>
+                <img src="static/instagramlogo.jpeg"height="50" width="50">
+                <img src="static/twitterlogo.jpeg"height="50" width="50">
+                <img src="static/facebooklogo.jpeg"height="50" width="50">
+            </center>
+        </div>
+    <div id="COUSTOMER SERVICE">
+        <center>
+            <h2>COUSTOMER SERVICE</h2>
+            <p>040 090 667</p>
+            <p>040 334 554</p>
+        </center>
+        </div>
+        <div id="copy">
+            <center></center>
+            <h2>COPY RIGHTS</h2>
+            &COPY; STATE BANK OF INDIA@2024                      
+        </center>
+    </div>                  
+        <div id="branches">
+            <center>
+                <h2>BRANCHES</h2>
+                <ul>
+                    <li>SECUNDRABAD</li>
+                    <li>LB NAGAR</li>
+                    <li>MIYAPUR</li>
+                </ul>
+            </center>   
+        </div>
+
+</body>
+</html>
